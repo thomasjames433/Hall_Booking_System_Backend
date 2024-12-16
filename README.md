@@ -77,7 +77,7 @@ The backend is hosted on render at
 
 https://hall-booking-system-backend-3y1q.onrender.com
 
-For the admin are username=thomas, password=thomas
+For the admin  username=thomas, password=thomas
 
 
 ## To run the library system:
