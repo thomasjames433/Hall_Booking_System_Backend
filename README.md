@@ -15,7 +15,7 @@ The admin must have created a hall for the users to access it. This way the numb
 
 While giving an input to request a booking, follow below
 
-"hallname":"Aryabhatta", // give it as hallname while adding and if updating, made sure that we do not have to know the hall id, can give it just by knowing the name of the hall
+"hallname":"Aryabhatta", // give it as hallname while adding and if updating, we do not have to know the hall id, can give it just by knowing the name of the hall
 
 "date": "2024-12-18",  // Date in 'YYYY-MM-DD' format
 
