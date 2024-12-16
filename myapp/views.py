@@ -44,11 +44,15 @@ class Login (APIView):
 
 from rest_framework.permissions import IsAuthenticated,IsAdminUser
 from rest_framework_simplejwt.authentication import JWTAuthentication
-from rest_framework.permissions import BasePermission,SAFE_METHODS
+from rest_framework.permissions import BasePermission
 
 class IsAdminorSameUser(BasePermission):
+    def has_permission(self, request, view):
+        return request.user and  request.user.is_authenticated 
+    
     def has_object_permission(self, request, view, obj):
-        return  request.user.is_authenticated and ( request.user.is_staff or obj.user==request.user)
+        print(obj.user)
+        return request.user and  request.user.is_authenticated and ( request.user.is_staff or obj.instance.user==request.user)
 
 class CreateHall(generics.CreateAPIView):
     authentication_classes=[JWTAuthentication]
