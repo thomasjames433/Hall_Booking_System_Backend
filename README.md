@@ -48,6 +48,7 @@ GET- FOR everyone, The website opens to the list of halls that are provided
 #### changebookingstatus/id
 
  POST- FOR ADMINS ONLY, input fields - booking_status. The admin can change it to any of the 4, 'available','booked' (to approve),'pending','rejected'. If the admin books a slot that has already been booked, it does not follow through, the status remains as pending
+
  id - is the id of the Schedule object made when a user requests to book a hall
   
 #### bookhall
@@ -73,6 +74,7 @@ GET- The details of the booking made
 
 ## Backend Hosted URL
 The backend is hosted on render at 
+
 https://hall-booking-system-backend-3y1q.onrender.com
 
 
