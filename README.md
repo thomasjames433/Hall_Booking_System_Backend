@@ -27,7 +27,7 @@ The order is not important, but maintain the formats
 
 ## Functionality/URLS
 
-#### 
+#### The homepage ('')
 GET- FOR everyone, The website opens to the list of halls that are provided
 
 #### register
