@@ -51,7 +51,7 @@ class IsAdminorSameUser(BasePermission):
         return request.user and  request.user.is_authenticated 
     
     def has_object_permission(self, request, view, obj):
-        print(obj.user)
+        
         return request.user and  request.user.is_authenticated and ( request.user.is_staff or obj.instance.user==request.user)
 
 class CreateHall(generics.CreateAPIView):
