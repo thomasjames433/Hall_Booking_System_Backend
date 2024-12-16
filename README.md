@@ -1,6 +1,6 @@
 # Hall Booking System
 
-This is a project that allows registered users to request the admin to book halls by giving details like the date,timing of event and hall they want. Admins approve of the requests. Makes sure 2 bookings do not intersect with each other Made using Django and Django REST Framework and Djangorestframework-simplejwt.
+This is a project that allows registered users to request the admin to book halls by giving details like the date,timing of event and hall they want. Admins approve of the requests. Makes sure 2 bookings do not intersect with each other Made using Django, Django REST Framework and Djangorestframework-simplejwt.
 
 ## Features:
 
