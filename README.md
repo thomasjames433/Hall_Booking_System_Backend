@@ -46,7 +46,7 @@ GET- FOR everyone, The website opens to the list of halls that are provided
 
 #### changebookingstatus/id
 
- POST- FOR ADMINS ONLY, input fields - booking_status. The admin can change it to any of the 4, 'available','booked' (to approve),'pending','rejected'. If the admin books a slot that has already been booked, it does not follow through, the status remains as pending
+ POST- FOR ADMINS ONLY, input fields - booking_status. The admin can change it to any of the 4, 'available','booked' (to approve),'pending','rejected'. If the admin approves a slot that has already been booked, it does not follow through, the status remains as pending
 
  id - is the id of the Schedule object made when a user requests to book a hall
   
