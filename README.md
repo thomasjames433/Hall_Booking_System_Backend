@@ -12,7 +12,7 @@ This is a project that allows registered users to request the admin to book hall
 
 The admin must have created a hall for the users to access it. This way the number of halls can be modified
 
-While giving an input to request a booking, follow below
+While giving an input to request a booking, follow the instructions below
 
 "hallname":"Aryabhatta", // give it as hallname while adding and if updating, we do not have to know the hall id, can give it just by knowing the name of the hall
 
