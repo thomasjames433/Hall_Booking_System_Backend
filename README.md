@@ -12,7 +12,8 @@ This is a project that allows registered users to request the admin to book hall
 ## Important!
 
 The admin must have created a hall for the users to access it. This way the number of halls can be modified
-While giving an input the request should be as follows
+
+While giving an input to request a booking, follow below
 
 "hallname":"Aryabhatta", // give it as hallname while adding and if updating, made sure that we do not have to know the hall id, can give it just by knowing the name of the hall
 "date": "2024-12-18",  // Date in 'YYYY-MM-DD' format
