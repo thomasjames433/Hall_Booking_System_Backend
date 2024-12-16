@@ -12,6 +12,10 @@ from rest_framework import generics
 
 from django.contrib.auth import authenticate
 
+class GetAllHalls(generics.ListAPIView):
+    queryset=Hall.objects.all()
+    serializer_class=HallSerializer
+
 class Register(APIView):
     def post(self,request):
         serializer=UserSerializer(data=request.data)
