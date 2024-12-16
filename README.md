@@ -4,7 +4,6 @@ This is a project that allows registered users to request the admin to book hall
 
 ## Features:
 
-- Two bookings do not intersect with each other.
 - Does not allow bookings that clash with slots already approved by the admin
 - Users are allowed to edit the requirements of their bookings. If they edit an already booked slot, the booking_status changes to 'pending'
 - User authorization using JWT
