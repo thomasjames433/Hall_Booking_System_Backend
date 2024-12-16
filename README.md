@@ -100,3 +100,4 @@ https://hall-booking-system-backend-3y1q.onrender.com
 
 ## LICENSE
 
+[MIT License](LICENSE)
