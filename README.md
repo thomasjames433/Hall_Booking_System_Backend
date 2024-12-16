@@ -63,7 +63,7 @@ id - is the id of the Schedule object made when a user requests to book a hall
 
 GET- The details of the booking made
 
- PUT/PATCH-  input fields - hallname, date, start_time, end_time. If ediiting a slot that has already been booked, changes the booking status to pending
+ PUT/PATCH-  input fields - hallname, date, start_time, end_time. If ediiting a slot that has already been booked, this changes its booking status to pending
 
  DELETE- Delete the booking/request
  
