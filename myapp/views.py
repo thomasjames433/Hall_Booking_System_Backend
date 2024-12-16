@@ -48,7 +48,7 @@ from rest_framework.permissions import BasePermission,SAFE_METHODS
 
 class IsAdminorSameUser(BasePermission):
     def has_object_permission(self, request, view, obj):
-        return request.user.is_staff or (request.user.is_authenticated and obj.user==request.user)
+        return  request.user.is_authenticated and ( request.user.is_staff or obj.user==request.user)
 
 class CreateHall(generics.CreateAPIView):
     authentication_classes=[JWTAuthentication]
