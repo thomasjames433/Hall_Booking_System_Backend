@@ -89,7 +89,6 @@ For the admin  username=thomas, password=thomas
    - `python manage.py makemigrations`
    - `python manage.py migrate`  
    - `To createsuperuser: python manage.py createsuperuser`
-   - `pip freeze > requirements.txt`
 #### 4. Run the system:
    `python manage.py runserver`
 
